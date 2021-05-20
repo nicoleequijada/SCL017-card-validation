@@ -4,8 +4,10 @@ const validator = {
 	  console.log(numbersArray);
 		let turnedIntoNumber = parseInt(creditCardNumber);
 
-		if(creditCardNumber ===" " || isNaN(turnedIntoNumber)){
-			alert("Ingresa un numero valido");
+		if(creditCardNumber ===" " || isNaN(turnedIntoNumber) || numbersArray.length != 16){
+			return false;
+    }else{
+      return true
     }
   }  
 }
