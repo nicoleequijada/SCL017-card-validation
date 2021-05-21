@@ -187,10 +187,58 @@ font-family: 'Acme', sans-serif;
 
 .footer{
     width: auto;
-    height: 100px;
-    background-color: rgb(211, 207, 207);
-    border: 1px solid blueviolet;
+    background-color: #f0f2fa;
+    border: 2px dotted black;
+    
+    
 
 }
+.contact{
+    background-color: #f0f2fa;
+    color: black;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+  
+  }
 
+.social{
+}
+.social-link{
+  display: inline-block;
+ /* width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  background-size: 50px 50px; */
+  object-fit: cover;
+  background-repeat: no-repeat;
+
+}
+.social-link.twitter{
+  background-image: url('img/twitter.png');
+  width: 60px;
+  height: 60px;
+  margin: 0 10px;
+  background-size: 60px 60px;
+
+}
+.social-link.facebook{
+  background-image: url('img/facebook.png');
+  width: 60px;
+  height: 60px;
+  background-size: 60px 60px;
+}
+.social-link.instagram{
+    background-image: url('img/instagram.png');
+    width: 48px;
+    height: 48px;
+    margin-left: 10px;
+    margin-right: 30px;
+    background-size: 48px 48px;
+    margin-bottom: 5px;
+
+  }
 
