@@ -6,24 +6,29 @@ const validator = {
 		if(creditCardNumber ===" " || isNaN(turnedIntoNumber) || numbersArray.length != 16){
 			return false;
     }else{
-      for(var i = 1; i < numbersArray.length; i++){
+      for(var i = 0; i < numbersArray.length; i++){
         if(i % 2 == 0){
           // console.log(numbersArray[i])
           let numberTwo = numbersArray[i]*2;
-          console.log(numberTwo);
+          // console.log(numberTwo);
           if(numberTwo >= 10){
-          //  let divide = numberTwo.split("");
-          //  console.log(divide);
-            
+            let toString = numberTwo.toString();
+            let divide = toString.split("");
+            console.log(divide);
+            let suma = parseInt(divide[0]) + parseInt(divide[1]);
+            console.log(suma);
           }
-      
+        }else{
+            let anotherNumbers = numbersArray[i];
+          }  
+
+          }
+          // hacer un acumulador, definirlo afuera y detro for sumar
         }
       }
     } 
     
-  } 
 
-} 
 
 export default validator;
 
