@@ -2,28 +2,38 @@ const validator = {
   isValid: function(creditCardNumber){
 	  let numbersArray = creditCardNumber.split(""); 
     let turnedIntoNumber = parseInt(creditCardNumber);
+    let accumulator = 0;
+    let suma = 0;
 
 		if(creditCardNumber ===" " || isNaN(turnedIntoNumber) || numbersArray.length != 16){
 			return false;
     }else{
       for(var i = 0; i < numbersArray.length; i++){
+        console.log(accumulator);
         if(i % 2 == 0){
-          // console.log(numbersArray[i])
           let numberTwo = numbersArray[i]*2;
-          // console.log(numberTwo);
+
           if(numberTwo >= 10){
             let toString = numberTwo.toString();
             let divide = toString.split("");
-            console.log(divide);
-            let suma = parseInt(divide[0]) + parseInt(divide[1]);
-            console.log(suma);
+            suma = parseInt(divide[0]) + parseInt(divide[1]); 
+            accumulator = accumulator + suma;
+            
+          }else{
+            accumulator = accumulator +  numberTwo;
+          
           }
         }else{
-            let anotherNumbers = numbersArray[i];
-          }  
-
+           accumulator = accumulator + parseInt(numbersArray[i]);
+        
+           
+          }    
+        }
+          if(accumulator % 10 == 0){
+            alert("tarjeta valida");
+          }else{
+            alert("tarjeta invalida")
           }
-          // hacer un acumulador, definirlo afuera y detro for sumar
         }
       }
     } 
