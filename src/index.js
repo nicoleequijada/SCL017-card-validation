@@ -1,8 +1,8 @@
 import validator from './validator.js';
 
 let numberCredits = document.getElementById("number-credits");
+console.log(numberCredits);
 let send = document.getElementById("send");
-
 
 
 let getInputDate = function(event){
@@ -15,11 +15,36 @@ let getInputDate = function(event){
     }
     
 }
+
 send.addEventListener('click', getInputDate, false);
 
 
+let keyEvent = function(event){
+    console.log("funciona")
+    // event.preventDefault()
+    let hideNumbers = numberCredits.value;
+    console.log(hideNumbers);
+
+   let resultMaskify = validator.maskify(hideNumbers);
+   console.log(resultMaskify);
+   numberCredits.innerText = resultMaskify;
+
+
+}
+numberCredits.addEventListener('keypress', keyEvent, false);
+
 
  
- 
 
-console.log(validator);
+
+
+
+
+
+
+
+
+
+
+
+

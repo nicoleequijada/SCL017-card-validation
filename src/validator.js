@@ -4,7 +4,7 @@ const validator = {
     let turnedIntoNumber = parseInt(creditCardNumber);
     let accumulator = 0;
     let suma = 0;
-
+    
 		if(creditCardNumber ===" " || isNaN(turnedIntoNumber) || numbersArray.length != 16){
 			return false;
     }else{
@@ -35,8 +35,31 @@ const validator = {
             alert("tarjeta invalida")
           }
         }
+      },
+
+
+
+      maskify(creditCardNumber){
+        creditCardNumber = creditCardNumber.split("");
+        for( var i = 0; i < creditCardNumber.length; i++){
+          creditCardNumber[i] = parseInt(creditCardNumber[i]);
+        }
+        let numbHide =[];
+        for (var i = 0; i < creditCardNumber.length; i++){
+          if(i < creditCardNumber.length-4){
+            numbHide.push('#');
+           
+          }else{
+            numbHide.push(creditCardNumber[i]);
+          }
+          
+             
+        }
+        return numbHide.join("");
       }
+
     } 
+    
     
 
 
