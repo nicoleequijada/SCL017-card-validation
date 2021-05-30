@@ -27,7 +27,7 @@ let keyEvent = function(event){
 
    let resultMaskify = validator.maskify(hideNumbers);
    console.log(resultMaskify);
-   numberCredits.innerText = resultMaskify;
+   numberCredits.value = resultMaskify;
 
 
 }
