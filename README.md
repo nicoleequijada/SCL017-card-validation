@@ -2,6 +2,14 @@
 
 Elegí este proyecto, porque me pareció muy util crear una plataforma donde tengas que hacer todo online, sin necesidad de llamar a los call centers y estar exponiendo los datos de tu tarjeta de credito para hacer una reserva telefonica.
 
+# imagen final
+
+![image](https://user-images.githubusercontent.com/72900415/120220403-acd47b80-c20a-11eb-91e9-aae68c188265.png)
+![image](https://user-images.githubusercontent.com/72900415/120220468-c1b10f00-c20a-11eb-8e55-04fb11b1e57f.png)
+![image](https://user-images.githubusercontent.com/72900415/120220509-d1305800-c20a-11eb-916e-672ee4467cd9.png)
+
+
+
 # Resumen del proyecto
 
 En este proyecto se realizó una plataforma que ofrece paquetes turisticos en todo chile, la funcion principal es validar si las tarjetas de creditos son validas o invalidas de acuerdo al algoritmo de Luhn, adcional se debe encapsular los digitos de tu tarjeta a medida que vayas escribiendo, solo deben verse los ultimos 4 digitos, implemente que por medidas de seguridad, no permitiera la función de pegar datos. 
