@@ -4,9 +4,17 @@ Elegí este proyecto, porque me pareció muy util crear una plataforma donde ten
 
 # imagen final
 
-![image](https://user-images.githubusercontent.com/72900415/120220403-acd47b80-c20a-11eb-91e9-aae68c188265.png)
-![image](https://user-images.githubusercontent.com/72900415/120220468-c1b10f00-c20a-11eb-8e55-04fb11b1e57f.png)
-![image](https://user-images.githubusercontent.com/72900415/120220509-d1305800-c20a-11eb-916e-672ee4467cd9.png)
+![image](https://user-images.githubusercontent.com/72900415/120221853-16ee2000-c20d-11eb-9e35-873c5b7e9a03.png)
+![image](https://user-images.githubusercontent.com/72900415/120221873-1fdef180-c20d-11eb-908c-5be6d695770f.png)
+![image](https://user-images.githubusercontent.com/72900415/120221885-24a3a580-c20d-11eb-80ec-dae8ebe58a92.png)
+![image](https://user-images.githubusercontent.com/72900415/120221898-29685980-c20d-11eb-94ef-35be82e56ef4.png)
+
+![image](https://user-images.githubusercontent.com/72900415/120221931-35ecb200-c20d-11eb-8cf9-bd74c5f300ce.png)
+![image](https://user-images.githubusercontent.com/72900415/120221962-40a74700-c20d-11eb-8f02-173b85ae41c0.png)
+![image](https://user-images.githubusercontent.com/72900415/120222148-7cdaa780-c20d-11eb-86ca-87fe05b8ecf0.png)
+
+
+
 
 
 
