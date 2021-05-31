@@ -8,6 +8,7 @@ let pureCreditCardNumber = [];
 
 
 
+
 let getInputDate = function(event){
     event.preventDefault()
     let toStringPureCreditCardNumber = pureCreditCardNumber.join("");
@@ -31,12 +32,15 @@ let keyEvent = function(event){
     }else{
         pureCreditCardNumber.push(event.key);
     }
-    console.log(pureCreditCardNumber);
+   
     event.preventDefault()
     let hideNumbers = numberCredits.value;
+    console.log(hideNumbers)
+    let convertArray = pureCreditCardNumber.join("");
+    let resultMaskify = validator.maskify(convertArray);
+    numberCredits.value = resultMaskify;
+    console.log(resultMaskify)
 
-   let resultMaskify = validator.maskify(hideNumbers);
-   numberCredits.value = resultMaskify;
 
 
 }

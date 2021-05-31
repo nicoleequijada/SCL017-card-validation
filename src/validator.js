@@ -9,7 +9,6 @@ const validator = {
 			return false;
     }else{
       for(var i = 0; i < numbersArray.length; i++){
-        console.log(accumulator);
         if(i % 2 == 0){
           let numberTwo = numbersArray[i]*2;
 
@@ -37,12 +36,12 @@ const validator = {
         }
       },
 
-
+      
 
       maskify(creditCardNumber){
         creditCardNumber = creditCardNumber.split("");
         for( var i = 0; i < creditCardNumber.length; i++){
-          creditCardNumber[i] = parseInt(creditCardNumber[i]);
+          creditCardNumber[i] = creditCardNumber[i];
         }
         let numbHide =[];
         for (var i = 0; i < creditCardNumber.length; i++){
