@@ -29,9 +29,9 @@ const validator = {
           }    
         }
           if(accumulator % 10 == 0){
-            alert("tarjeta valida");
+            alert("tarjeta valida, Su compra se realizo correctamente");
           }else{
-            alert("tarjeta invalida")
+            alert("tarjeta invalida, intente con otra tarjeta")
           }
         }
       },
