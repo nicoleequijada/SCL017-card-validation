@@ -30,4 +30,16 @@ Lo primero que hice fue realizar un boceto con papel y lapiz para plazmar mi ide
 
 Lo primero fue crear la pagina inicial donde el cliente conoce que somos y que hacemos, en la misma pagina incial encuentra las opciones de destinos turisticos con un boton de reservar, cuando presiona el mismo, lo redirecciona a la segunda pagina donde encontrar una cajita de compra, luego tiene que ingresar los datos de su tarjeta de credito, **Si el usuario intenta enviar un campo en blanco le saldra un alert indicando que debe ingresar datos correcto**, **Si el usuario intenta escribir letras o caracteres especiales, le saldra un alert indicandole que debe ingresar datos correcto**, **Si el usuario intenta pegar los datos de una tarjeta de credito le saldra un alert indicando que debe ingresar datos correctos** y **si el usuario intenta realizar una compra con una tarjeta de mayor o menor logitud de 16 digitos, le saldra un alert indicando que debe ingresar datos correcto** Luego que implementamos esta funcion, **aplicamos el algoritmo de Luhn** para que validara si la tarjeta es valida o invalida y mostrara un mensaje con la respuesta de la misma. Luego de tener la parte de validacion lista el siguiente paso era encapsular u ocultar los datos de la tarjea de credito en el momento que el usario escribiera, solo son visiables los ultimos 4 digitos.
 
+# Mi primer boceto
+
+
+![boceto-inicial](https://user-images.githubusercontent.com/72900415/120257155-a9b6ab00-c25d-11eb-8b49-8cc81a54a9ec.jpg)
+
+
+# Prototipo final 
+
+![image](https://user-images.githubusercontent.com/72900415/120257486-57c25500-c25e-11eb-9fb4-b9b38658f70f.png)
+![image](https://user-images.githubusercontent.com/72900415/120257510-63158080-c25e-11eb-91a9-d4dd9c4957fc.png)
+
+
 #### Nicole Quijada
