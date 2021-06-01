@@ -1,7 +1,8 @@
 # Card Validation
 
 Elegí este proyecto, porque me pareció muy util crear una plataforma donde tengas que hacer todo online, sin necesidad de llamar a los call centers y estar exponiendo los datos de tu tarjeta de credito para hacer una reserva telefonica.
-
+# Link de proyecto
+https://nicoleequijada.github.io/SCL017-card-validation/
 # imagen final
 
 ![image](https://user-images.githubusercontent.com/72900415/120221853-16ee2000-c20d-11eb-9e35-873c5b7e9a03.png)
@@ -21,6 +22,7 @@ Elegí este proyecto, porque me pareció muy util crear una plataforma donde ten
 # Resumen del proyecto
 
 En este proyecto se realizó una plataforma que ofrece paquetes turisticos en todo chile, la funcion principal es validar si las tarjetas de creditos son validas o invalidas de acuerdo al algoritmo de Luhn, adcional se debe encapsular los digitos de tu tarjeta a medida que vayas escribiendo, solo deben verse los ultimos 4 digitos, implemente que por medidas de seguridad, no permitiera la función de pegar datos. 
+
 
 # Como inicie mi proyecto
 
